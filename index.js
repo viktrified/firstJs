@@ -104,3 +104,83 @@ const myModulus = () => {
   }
 };
 myModulus();
+
+// in modulus, the remainder is the answer
+// ! is used to invert a boolean value
+// ~ (-(value + 1))
+// binary sha o
+
+let me = "bca";
+let you = "bc";
+let comparison = me < you;
+
+// console.log(comparison);
+// console.log(me.charCodeAt());
+
+const human = { name: "Victory", pet: 2 };
+let named = "Alice";
+
+// console.log(human instanceof Object);
+// console.log(named instanceof String);
+// console.log(typeof named);
+
+// SHIFT ASSIGNMENT OPERATORS
+let z = -100;
+z <<= 5;
+// console.log(z);
+
+let t = -100;
+t >>= 5;
+// console.log(t);
+
+let u = -100;
+u >>>= 5;
+// console.log(u);
+
+// BITWISE ASSIGNMENT OPERATORS
+let uu = 2;
+uu &= 12;
+// console.log(roddy);
+
+let s = 2;
+s ^= 12;
+// console.log(s);
+
+let i = 2;
+i |= 12;
+// console.log(i);
+
+// LOGICAL ASSIGNMENT OPERATORS
+let o = 21;
+o &&= 3;
+// console.log(o);
+
+let p = 21;
+p ||= 3;
+// console.log(p);
+
+let q = 21;
+q ??= 3;
+// console.log(q);
+///////////////////////////////////////
+
+let bigNumber = BigInt("1234567890123456789012345678901234567890");
+// console.log(bigNumber);
+
+let bigIntOnly = 542n;
+bigIntOnly += BigInt(33);
+// console.log(bigIntOnly);
+
+let exponent = 235e-39;
+// console.log(exponent);
+
+let car = "";
+// console.log(car);
+
+const obj = {
+  name: "Victory",
+  age: 21,
+  isAlive: true,
+  arr: [1, 2, { cat: "Nicki", emotion: "fried" }, 4, 5],
+};
+// console.log(obj);
