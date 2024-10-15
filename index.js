@@ -184,3 +184,10 @@ const obj = {
   arr: [1, 2, { cat: "Nicki", emotion: "fried" }, 4, 5],
 };
 // console.log(obj);
+
+let pius = "<";
+let tongshinen = "<";
+
+// console.log(pius > tongshinen);
+
+
