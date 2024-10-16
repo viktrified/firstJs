@@ -15,7 +15,7 @@ let sum = x + y;
 // console.log(sum);
 
 function myFunction() {
-  demo = document.getElementById("demo").innerHTML = "Result: " + sum;
+  document.getElementById("demo").innerHTML = "Result: " + sum;
   // window.print();
 }
 // myFunction();
@@ -189,5 +189,3 @@ let pius = "<";
 let tongshinen = "<";
 
 // console.log(pius > tongshinen);
-
-
